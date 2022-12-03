@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: fuchsia;
+	width: 100%;
+	text-align: center;
+}
+.main{
+	max-width: 80%;
+	margin: auto;
+}
+.container{
+	max-width: 100%;
+	display: flex;
+}
+.col-3{
+	width: 25%;
+	border: 1px solid red;
+	padding: 10px;
+}
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+h1, h3{
+/*	text-align: center;*/
+}
+h1{
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 700;
+	margin: 20px auto;
+}
+h3{
+	font-family: 'Montserrat', serif;
+	font-weight: 500;
+	margin: 20px auto;
+}
+p{
+	font-family: cursive;
+	line-height: 2;
+}
